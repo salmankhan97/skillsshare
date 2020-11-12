@@ -1,0 +1,132 @@
+body{
+	/*font-family: 'DM Sans', sans-serif;
+	font-family: 'Lora', serif;*/
+	font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 36px !important;
+    font-weight: 400 !important;
+}
+p{
+    font-size: 18px;
+    line-height: 1.8;
+}
+h2{}
+.spen{
+    display: block;
+    /* height: 4px; */
+    background: #3722D3;
+    width: 100px;
+    margin: auto;
+    padding: 2px;
+    border-radius: 60px;
+}
+.navbar-brand{
+    width: 350px;
+}
+.bg {
+    background-color: #002333!important;
+}
+.btn0{
+    color: #000;
+    background-color: #00FF84 !important;
+    border-color: #00FF84 !important;
+    transition-duration: 0.3s;
+    font-weight: 600 !important;
+    border: 1px solid;
+}
+.btn0:hover{
+	background-color: #00ff84ab !important;
+}
+.btn2{
+	background-color: #ffffff00 !important;
+	border: 1px solid #3722D3 !important;
+	color: #3722D3 !important;
+	font-size: 17px !important;
+	font-weight: 500 !important;
+	transition-duration: 0.3s;
+}
+.btn2:hover{
+	background-color: #3722D3 !important;
+	border: 1px solid #3722D3 !important;
+	color: white !important;
+}
+.nav-link{
+	color: #FFF !important;
+	font-size: 18px !important;
+    transition-duration: 0.3s;
+}
+.nav-link:hover{
+	color: #00FF84 !important;
+}
+nav .btn-lg {
+    padding: 0.3rem 1rem !important;
+	font-size: 18px !important;
+}
+.btn1{
+	background-color: inherit !important;
+    border-color: #FFF !important;
+    color: #FFF !important;
+    width: 180px;
+}
+.btn1:hover{
+
+	background-color: #ffffff26 !important;
+
+}
+.banner1{
+    background-image: url(../images/470a8b76-stocksy-txp62f374e5huw200-medium-1073249_1000000000000000000028.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 95vh;
+    margin-top: 70px;
+    background-blend-mode: darken;
+    background-color: #00000082;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.banner1 h1{}
+.banner1 p{}
+.banner1 h5{
+	color: #00FF84 !important;
+}
+.banner1 .crds{
+    border-right: 1px solid #ffffff6b;
+}
+.customer-feed h4{}
+
+.banner2{
+	background: #0000000d;
+	padding: 20px;
+}
+
+.panel-grid .spen{
+	margin: 0;
+}
+.panel-grid img{
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+.panel-grid .textbox{}
+.banner3{
+    background: #3722D3;
+    color: #FFF;
+    padding: 40px;
+}
+
+.quotes{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.quotes p{
+    text-align: justify;
+}
+.quotes span{}
+
+.banner4{
+    color: #FFF;
+    background: #002333!important;
+    padding: 40px;
+}

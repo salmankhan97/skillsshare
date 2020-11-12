@@ -1,0 +1,13 @@
+@media(max-width:991px)
+{
+	.navbar-brand{
+    	width: 200px;
+	}
+}
+@media(max-width: 575px)
+{
+	.banner1 .crds {
+	    border-right: none;
+	    padding: 20px;
+	}
+}
