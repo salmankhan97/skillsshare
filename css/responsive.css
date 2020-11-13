@@ -3,11 +3,32 @@
 	.navbar-brand{
     	width: 200px;
 	}
+	.customer-feed img{
+	    max-width: 50%;
+	    padding: 5px 0px;
+	}
+	.banner1{
+		margin-top: 50px;
+	}
+	.banner1 h1{
+    font-size: 34px !important;
+	}
+	nav ul li button{
+		margin-bottom: 20px !important;
+	}
 }
+
+
 @media(max-width: 575px)
 {
 	.banner1 .crds {
 	    border-right: none;
 	    padding: 20px;
+	}
+	.panel-grid .textbox {
+    	padding: 20px;
+	}
+	footer h1 {
+	    font-size: 30px !important;
 	}
 }

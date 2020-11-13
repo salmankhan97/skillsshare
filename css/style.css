@@ -1,9 +1,10 @@
 body{
-	/*font-family: 'DM Sans', sans-serif;
-	font-family: 'Lora', serif;*/
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'DM Sans', sans-serif;
+	/*font-family: 'Lora', serif;*/
+	/*font-family: 'Montserrat', sans-serif;*/
 }
 h1{
+	font-family: 'Lora', serif;
     font-size: 36px !important;
     font-weight: 400 !important;
 }
@@ -37,6 +38,7 @@ h2{}
 }
 .btn0:hover{
 	background-color: #00ff84ab !important;
+	border-color: transparent !important;
 }
 .btn2{
 	background-color: #ffffff00 !important;
@@ -63,8 +65,15 @@ nav .btn-lg {
     padding: 0.3rem 1rem !important;
 	font-size: 18px !important;
 }
+nav ul li a{
+	padding: 20px 0px !important;
+    border-bottom: 2px solid transparent;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid #00FF84;
+}
 .btn1{
-	background-color: inherit !important;
+	background-color: transparent !important;
     border-color: #FFF !important;
     color: #FFF !important;
     width: 180px;
@@ -79,16 +88,20 @@ nav .btn-lg {
     background-attachment: fixed;
     background-position: center;
     min-height: 95vh;
-    margin-top: 70px;
+    margin-top: 65px;
     background-blend-mode: darken;
     background-color: #00000082;
     color: white;
     padding-top: 200px;
     padding-bottom: 200px;
 }
-.banner1 h1{}
+.banner1 h1{
+	font-weight: 800 !important;
+    font-size: 50px !important;
+}
 .banner1 p{}
 .banner1 h5{
+	font-family: 'Lora', serif;
 	color: #00FF84 !important;
 }
 .banner1 .crds{
@@ -128,5 +141,28 @@ nav .btn-lg {
 .banner4{
     color: #FFF;
     background: #002333!important;
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+footer h1{
+    font-size: 46px !important;
+}
+
+footer ul{}
+footer li{
+    border-right: 1px solid #FFF;
+}
+footer li:last-child{
+    border-right: 0;
+}
+footer a{
+    color: #FFF;
+    font-size: 16px;
+}
+footer a:hover{
+	color: #00FF84 !important
+}
+footer .cpy{
+	    font-size: 14px;
+	    opacity: 0.9;
 }
