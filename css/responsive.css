@@ -16,6 +16,9 @@
 	nav ul li button{
 		margin-bottom: 20px !important;
 	}
+	footer li{
+		border-right: 0;
+	}
 }
 
 
